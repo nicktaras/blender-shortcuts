@@ -9,3 +9,11 @@
 - b - in edit mode box select mesh
 - c - in edit more paint select mesh (esc to stop paint selection)
 - n - toggle object details panel
+
+# handy tips
+
+Limited Desolve:
+
+Reduces detail on planar faces and linear edges with an adjustable angle threshold. Always dissolve vertices that have two edge users at boundaries. Prevent faces from joining when they don't share certain properties (material for e.g.).
+
+Tip - This is a great tool when you want to remove all inner connected vertices (line fills).
