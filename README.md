@@ -9,6 +9,7 @@
 - b - in edit mode box select mesh
 - c - in edit more paint select mesh (esc to stop paint selection)
 - n - toggle object details panel
+- ctrl + r - loop cut tool, when it edit mode you can further divide your mesh cutting horizonal and vercial lines through your model
 
 # blender-shortcuts (advanced)
 
