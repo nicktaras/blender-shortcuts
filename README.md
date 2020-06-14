@@ -10,6 +10,7 @@
 - c - in edit more paint select mesh (esc to stop paint selection)
 - n - toggle object details panel
 - ctrl + r - loop cut tool, when it edit mode you can further divide your mesh cutting horizonal and vercial lines through your model
+- g * 2 - Slide selected verticies. This saves you from having to use the axis handles. 
 
 # blender-shortcuts (advanced)
 
