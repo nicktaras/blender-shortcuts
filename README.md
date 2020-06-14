@@ -10,6 +10,15 @@
 - c - in edit more paint select mesh (esc to stop paint selection)
 - n - toggle object details panel
 
+# blender-shortcuts (advanced)
+
+- When creating an object and using the mirror modifier, using the LEFT Mouse + G will adjust the clipping area accordingly. (Available in latest version of Blender).
+
+# Modifiers
+
+Subsurf - Subdivision Surface Modifier. It smoothes your object and adds more detail.
+Mirror - When creating object with symmetry e.g. an owl with two legs. You can create one leg, then add the mirror modifier, then select mirror object as the owls body object. This will place the leg in the right location automatically. 
+
 # handy tips
 
 Limited Desolve:
