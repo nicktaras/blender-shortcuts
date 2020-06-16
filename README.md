@@ -23,6 +23,7 @@ Mirror - When creating object with symmetry e.g. an owl with two legs. You can c
 
 # Texture Steps
 
+0. Select each object and apply scale, select > object > apply > scale
 1. Inside the shading view mode
 2. Select the texture option from the options on the top right
 3. Then inside the node section add a new texture
