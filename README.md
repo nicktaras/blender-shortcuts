@@ -21,6 +21,17 @@
 Subsurf - Subdivision Surface Modifier. It smoothes your object and adds more detail.
 Mirror - When creating object with symmetry e.g. an owl with two legs. You can create one leg, then add the mirror modifier, then select mirror object as the owls body object. This will place the leg in the right location automatically. 
 
+# Texture Steps
+
+1. Inside the shading view mode
+2. Select the texture option from the options on the top right
+3. Then inside the node section add a new texture
+4. Select, image and UV in the set up
+5. Click to Add image, give it a name
+6. You should then see the texture appear
+7. Copy and paste the texture to each object
+8. The move the the UV view mode
+
 # handy tips
 
 Limited Desolve:
@@ -32,3 +43,4 @@ Tip - This is a great tool when you want to remove all inner connected vertices 
 Non manifold:
 
 Ensure that all of the mesh is complete / no gaps are present. This function can be found in the select menu.
+
