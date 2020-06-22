@@ -53,6 +53,10 @@ Armature deform is for character rigging.
 
 Pose mode is made for animation. 
 
+# IK - Inverse Kinematics
+
+...
+
 # Centre selected element
 
 alt + g
