@@ -11,6 +11,7 @@
 - n - toggle object details panel
 - ctrl + r - loop cut tool, when it edit mode you can further divide your mesh cutting horizonal and vercial lines through your model
 - g * 2 - Slide selected verticies. This saves you from having to use the axis handles. 
+- ctrl + p - parent objects
 
 # blender-shortcuts (advanced)
 
@@ -20,6 +21,37 @@
 
 Subsurf - Subdivision Surface Modifier. It smoothes your object and adds more detail.
 Mirror - When creating object with symmetry e.g. an owl with two legs. You can create one leg, then add the mirror modifier, then select mirror object as the owls body object. This will place the leg in the right location automatically. 
+
+# Parenting
+
+Select items on layer, the last object is the active object.
+Once this is selected press, ctrl + p
+This will open a parenting modal - the most typical selection here is object (transform)
+(once complete, you should see relationship lines to show the relations).
+
+You parent, parents on top of parents to create very complex animations. 
+
+Space bar to search - parent to empty. 
+
+Where you can select a lot of object and define their parent.
+
+# Armature
+
+Pose mode shows that just the tail moves, not the head. 
+
+Shift + A will create a bone where your cursor is.
+
+You can subdivide bones.
+
+You can also use ctrl + p to connect bones like you would with objects.
+
+Armature deform is for character rigging.
+
+Pose mode is made for animation. 
+
+# Centre selected element
+
+alt + g
 
 # Texture Steps
 
