@@ -35,6 +35,10 @@ Space bar to search - parent to empty.
 
 Where you can select a lot of object and define their parent.
 
+# Transformation Constraints
+
+A clever trick can be adding two objects, one rotates and the other moves up and down.
+
 # Armature
 
 Pose mode shows that just the tail moves, not the head. 
