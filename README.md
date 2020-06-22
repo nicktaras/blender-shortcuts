@@ -39,6 +39,15 @@ Where you can select a lot of object and define their parent.
 
 A clever trick can be adding two objects, one rotates and the other moves up and down.
 
+# Vertex Groups
+
+If you paint on the mesh, a vertex group is created for the bone. If you paint on vertices outside the group, the painted vertices are automatically added to the vertex group. If you have a symmetrical mesh and a symmetrical armature you can use the option X Mirror.
+
+Examples of use:
+
+- A cloth where you choose a vertex group, the cloth will only fall at the part where the group is not selected
+- Particle System where you choose where particles will emit from
+
 # Armature
 
 Pose mode shows that just the tail moves, not the head. 
