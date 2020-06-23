@@ -94,3 +94,15 @@ Non manifold:
 
 Ensure that all of the mesh is complete / no gaps are present. This function can be found in the select menu.
 
+# Further learing via blender cloud
+
+- https://cloud.blender.org/p/3d-printing/
+- https://cloud.blender.org/p/blender-fundamentals/
+- https://cloud.blender.org/p/blenderella/
+- https://cloud.blender.org/p/game-asset-creation/
+- https://cloud.blender.org/p/animation-fundamentals/
+- https://cloud.blender.org/p/stylized-character-workflow/
+
+
+
+
