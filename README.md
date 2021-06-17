@@ -11,6 +11,7 @@
 - bevel smooth edges without mouse wheel. Mid way through the bevel, press ctrl + s and then move the mouse position
   this will apply smooth bevelling to the model
   (https://docs.blender.org/manual/en/latest/modeling/meshes/editing/edge/bevel.html)
+- Join, ctrl + j (select objects, it matters which you select as the last item)
 
 #
 
