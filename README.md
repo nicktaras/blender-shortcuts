@@ -1,5 +1,15 @@
 # blender-shortcuts
 
+# 2.8
+
+- cut new vertice and line across an object, click on a vertice on the face
+  then press ctrl + r and hover with the mouse, this will bring up a line.
+  move the mouse to position the line and click to place it.
+- ctrl + tab will brink up quick options to change the mode
+- shift + a will allow you select from a quick menu, e.g. add shape
+
+#
+
 - tab - toggle between scene and edit mode
 - x - open delete options from edit mode
 - p - move selection e.g. move selected mesh in edit mode to a new layer
