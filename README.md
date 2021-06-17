@@ -7,6 +7,7 @@
   move the mouse to position the line and click to place it.
 - ctrl + tab will brink up quick options to change the mode
 - shift + a will allow you select from a quick menu, e.g. add shape
+- bevel, ctrl + b (then move your mouse to apply the bevel, using the mouse wheel you can smooth the edges)
 
 #
 
