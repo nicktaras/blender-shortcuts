@@ -2,6 +2,7 @@
 
 # 2.8
 
+- object > set origin, here you can change the registration point.
 - cut new vertice and line across an object, click on a vertice on the face
   then press ctrl + r and hover with the mouse, this will bring up a line.
   move the mouse to position the line and click to place it.
