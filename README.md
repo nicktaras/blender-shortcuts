@@ -2,6 +2,7 @@
 
 # 2.8
 
+- reference image > open normal menu (the one with objects inside), find image > reference image. You can select from the image option tab > perspective only if you only want it to display when in a direct view port e.g. front.
 - object > set origin, here you can change the registration point.
 - cut new vertice and line across an object, click on a vertice on the face
   then press ctrl + r and hover with the mouse, this will bring up a line.
