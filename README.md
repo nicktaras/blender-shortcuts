@@ -2,6 +2,7 @@
 
 # 2.8
 
+- add background image. shift + a, then select from the menu image
 - reference image > open normal menu (the one with objects inside), find image > reference image. You can select from the image option tab > perspective only if you only want it to display when in a direct view port e.g. front.
 - object > set origin, here you can change the registration point.
 - cut new vertice and line across an object, click on a vertice on the face
