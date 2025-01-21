@@ -1,127 +1,130 @@
-# blender-shortcuts
+# Blender Shortcuts
 
-# 2.8
+## General Shortcuts (Blender 2.8+)
 
-- subdivide, open menu to extrude and many other features also. cmd + e
-- add background image. shift + a, then select from the menu image
-- reference image > open normal menu (the one with objects inside), find image > reference image. You can select from the image option tab > perspective only if you only want it to display when in a direct view port e.g. front.
-- object > set origin, here you can change the registration point.
-- cut new vertice and line across an object, click on a vertice on the face
-  then press ctrl + r and hover with the mouse, this will bring up a line.
-  move the mouse to position the line and click to place it.
-- ctrl + tab will brink up quick options to change the mode
-- shift + a will allow you select from a quick menu, e.g. add shape
-- bevel, ctrl + b (then move your mouse to apply the bevel, using the mouse wheel you can smooth the edges)
-- bevel smooth edges without mouse wheel. Mid way through the bevel, press ctrl + s and then move the mouse position
-  this will apply smooth bevelling to the model
-  (https://docs.blender.org/manual/en/latest/modeling/meshes/editing/edge/bevel.html)
-- Join, ctrl + j (select objects, it matters which you select as the last item)
+- **Cmd + E**: Open the menu to extrude and other features.
+- **Shift + A**: Open the quick menu to add shapes and objects.
+- **Shift + A (Image)**: Add background image. Select "Image" from the menu.
+- **Image Reference**: Open the "Object" menu, select "Image" > "Reference Image." You can toggle the display to be visible only in certain views (e.g., front view) by selecting "Perspective" in the options.
+- **Object > Set Origin**: Change the origin (registration point) of the object.
+- **Ctrl + R**: Loop cut tool. Hover to bring up a line. Click to place the line.
+- **Ctrl + Tab**: Quick mode change (Object/Edit mode).
+- **Ctrl + B**: Bevel edges. Scroll the mouse wheel to adjust the bevel smoothness.
+- **Ctrl + S (While Beveling)**: Apply smooth beveling while moving the mouse during a bevel operation. [Bevel Documentation](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/edge/bevel.html)
+- **Ctrl + J**: Join objects. The last selected object becomes the active object.
+  
+## Object and Edit Mode
 
-#
+- **Tab**: Toggle between Object and Edit mode.
+- **X**: Open delete options (in Edit mode).
+- **P**: Move selection to a new layer (in Edit mode).
+- **M**: Move object to a new layer.
+- **Z**: Toggle wireframe view of the scene.
+- **A**: Select all.
+- **B**: Box select (in Edit mode).
+- **C**: Circle select (in Edit mode; press Esc to stop).
+- **N**: Toggle object properties panel.
+- **Ctrl + R**: Loop cut tool. You can divide your mesh further by cutting horizontal and vertical lines.
+- **G * 2**: Slide selected vertices without using axis handles.
+- **Ctrl + P**: Parent selected objects.
 
-- tab - toggle between scene and edit mode
-- x - open delete options from edit mode
-- p - move selection e.g. move selected mesh in edit mode to a new layer
-- m - open layer selection to move selected object
-- z - toggle to see wireframe of scene
-- a - select all
-- b - in edit mode box select mesh
-- c - in edit more paint select mesh (esc to stop paint selection)
-- n - toggle object details panel
-- ctrl + r - loop cut tool, when it edit mode you can further divide your mesh cutting horizonal and vercial lines through your model
-- g * 2 - Slide selected verticies. This saves you from having to use the axis handles. 
-- ctrl + p - parent objects
+## Advanced Shortcuts
 
-# blender-shortcuts (advanced)
-
-- When creating an object and using the mirror modifier, using the LEFT Mouse + G will adjust the clipping area accordingly. (Available in latest version of Blender).
+- **Left Mouse + G (Mirror Modifier)**: Adjust clipping area when using the mirror modifier.
+  
+---
 
 # Modifiers
 
-Subsurf - Subdivision Surface Modifier. It smoothes your object and adds more detail.
-Mirror - When creating object with symmetry e.g. an owl with two legs. You can create one leg, then add the mirror modifier, then select mirror object as the owls body object. This will place the leg in the right location automatically. 
+### Subsurf (Subdivision Surface Modifier)
+
+- Smoothes your object and adds more detail.
+
+### Mirror Modifier
+
+- Use for symmetrical objects (e.g., creating an owl with two legs). After creating one object (e.g., leg), apply the mirror modifier and select the mirror object (e.g., the body) to automatically place the mirrored object.
+
+---
 
 # Parenting
 
-Select items on layer, the last object is the active object.
-Once this is selected press, ctrl + p
-This will open a parenting modal - the most typical selection here is object (transform)
-(once complete, you should see relationship lines to show the relations).
+- **Ctrl + P**: Parent objects. Select objects in the layer, with the last object as the active one. This will open a parenting modal. The most typical choice is "Object (Transform)".
+- Parent objects on top of other parents to create complex animations.
+- **Spacebar**: Search and set a parent to an empty object.
 
-You parent, parents on top of parents to create very complex animations. 
-
-Space bar to search - parent to empty. 
-
-Where you can select a lot of object and define their parent.
+---
 
 # Transformation Constraints
 
-A clever trick can be adding two objects, one rotates and the other moves up and down.
+- A useful trick is to add two objects: one rotates, and the other moves up and down. This is used to create linked transformations.
+
+---
 
 # Vertex Groups
 
-If you paint on the mesh, a vertex group is created for the bone. If you paint on vertices outside the group, the painted vertices are automatically added to the vertex group. If you have a symmetrical mesh and a symmetrical armature you can use the option X Mirror.
+- When painting on a mesh, a vertex group is created for the bone. Vertices outside the group will be automatically added to the group.
+- For symmetrical meshes and armatures, you can use **X Mirror** for mirrored painting.
+  
+Examples of vertex group use:
+- Cloth simulation: You can define which parts of the mesh are affected by the cloth simulation by selecting a vertex group.
+- Particle System: Choose where particles will emit from using vertex groups.
 
-Examples of use:
-
-- A cloth where you choose a vertex group, the cloth will only fall at the part where the group is not selected
-- Particle System where you choose where particles will emit from
+---
 
 # Armature
 
-Pose mode shows that just the tail moves, not the head. 
+- **Shift + A**: Create a bone at the cursor location.
+- You can subdivide bones for more control over your rig.
+- **Ctrl + P**: Connect bones, similar to parenting objects.
+- **Armature Deform**: Used for character rigging.
+- **Pose Mode**: Used for animating characters and poses.
 
-Shift + A will create a bone where your cursor is.
+---
 
-You can subdivide bones.
+# Inverse Kinematics (IK)
 
-You can also use ctrl + p to connect bones like you would with objects.
+- Inverse Kinematics allows you to manipulate a chain of bones by moving the end bone, and the rest of the bones will automatically adjust to maintain the correct pose.
 
-Armature deform is for character rigging.
+---
 
-Pose mode is made for animation. 
+# Center Selected Element
 
-# IK - Inverse Kinematics
+- **Alt + G**: Reset the location of the selected element to the origin.
 
-...
+---
 
-# Centre selected element
+# Texture Setup Steps
 
-alt + g
+1. Select each object and apply scale: **Object > Apply > Scale**.
+2. In the shading view mode, select the texture option on the top-right.
+3. Inside the node editor, add a new texture.
+4. Select the texture type: Image and UV.
+5. Click "Add Image," name it, and the texture should appear.
+6. Copy and paste the texture to other objects.
+7. Switch to the UV view mode to adjust the texture mapping.
 
-# Texture Steps
+---
 
-0. Select each object and apply scale, select > object > apply > scale
-1. Inside the shading view mode
-2. Select the texture option from the options on the top right
-3. Then inside the node section add a new texture
-4. Select, image and UV in the set up
-5. Click to Add image, give it a name
-6. You should then see the texture appear
-7. Copy and paste the texture to each object
-8. The move the the UV view mode
+# Handy Tips
 
-# handy tips
+### Limited Dissolve
 
-Limited Desolve:
+- Reduces the detail on planar faces and linear edges based on an adjustable angle threshold. This is useful for simplifying the geometry of flat surfaces.
 
-Reduces detail on planar faces and linear edges with an adjustable angle threshold. Always dissolve vertices that have two edge users at boundaries. Prevent faces from joining when they don't share certain properties (material for e.g.).
+### Non-Manifold Geometry
 
-Tip - This is a great tool when you want to remove all inner connected vertices (line fills).
+- Ensures that there are no gaps in your mesh. Found in the select menu, this tool helps identify and fix issues with non-manifold geometry.
 
-Non manifold:
+---
 
-Ensure that all of the mesh is complete / no gaps are present. This function can be found in the select menu.
+# Further Learning via Blender Cloud
 
-# Further learing via blender cloud
+- [3D Printing](https://cloud.blender.org/p/3d-printing/)
+- [Blender Fundamentals](https://cloud.blender.org/p/blender-fundamentals/)
+- [Blenderella](https://cloud.blender.org/p/blenderella/)
+- [Game Asset Creation](https://cloud.blender.org/p/game-asset-creation/)
+- [Animation Fundamentals](https://cloud.blender.org/p/animation-fundamentals/)
+- [Stylized Character Workflow](https://cloud.blender.org/p/stylized-character-workflow/)
 
-- https://cloud.blender.org/p/3d-printing/
-- https://cloud.blender.org/p/blender-fundamentals/
-- https://cloud.blender.org/p/blenderella/
-- https://cloud.blender.org/p/game-asset-creation/
-- https://cloud.blender.org/p/animation-fundamentals/
-- https://cloud.blender.org/p/stylized-character-workflow/
-
-
-
+---
 
